@@ -1,0 +1,41 @@
+{
+    "best_model": "Logistic Regression",
+    "selection_criteria": "Lowest Financial Cost (5*FP + 1*FN) combined with Highest Bad Risk Recall & ROC-AUC",
+    "ranking": [
+        "Logistic Regression",
+        "Random Forest",
+        "Decision Tree"
+    ],
+    "test_sample_count": 200,
+    "good_credit_count": 140,
+    "bad_credit_count": 60,
+    "summary_table": [
+        {
+            "model": "Logistic Regression",
+            "accuracy": 0.7,
+            "roc_auc": 0.792,
+            "bad_credit_recall": 0.8167,
+            "good_credit_recall": 0.65,
+            "financial_cost": 104,
+            "avg_cost_per_applicant": 0.52
+        },
+        {
+            "model": "Random Forest",
+            "accuracy": 0.71,
+            "roc_auc": 0.8086,
+            "bad_credit_recall": 0.7667,
+            "good_credit_recall": 0.6857,
+            "financial_cost": 114,
+            "avg_cost_per_applicant": 0.57
+        },
+        {
+            "model": "Decision Tree",
+            "accuracy": 0.65,
+            "roc_auc": 0.6921,
+            "bad_credit_recall": 0.8,
+            "good_credit_recall": 0.5857,
+            "financial_cost": 118,
+            "avg_cost_per_applicant": 0.59
+        }
+    ]
+}

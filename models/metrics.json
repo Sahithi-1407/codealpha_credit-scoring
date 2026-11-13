@@ -1,0 +1,167 @@
+{
+    "Logistic Regression": {
+        "cv_accuracy_mean": 0.6825,
+        "cv_accuracy_std": 0.0514,
+        "cv_roc_auc_mean": 0.758,
+        "cv_roc_auc_std": 0.0601,
+        "test_accuracy": 0.7,
+        "test_roc_auc": 0.792,
+        "precision_good": 0.8922,
+        "recall_good": 0.65,
+        "f1_good": 0.7521,
+        "precision_bad": 0.5,
+        "recall_bad": 0.8167,
+        "f1_bad": 0.6203,
+        "bad_as_good_defaults": 11,
+        "good_as_bad_denials": 49,
+        "total_financial_cost": 104,
+        "avg_cost_per_applicant": 0.52,
+        "confusion_matrix": [
+            [
+                49,
+                11
+            ],
+            [
+                49,
+                91
+            ]
+        ],
+        "classification_report": {
+            "Bad Credit": {
+                "precision": 0.5,
+                "recall": 0.8166666666666667,
+                "f1-score": 0.620253164556962,
+                "support": 60.0
+            },
+            "Good Credit": {
+                "precision": 0.8921568627450981,
+                "recall": 0.65,
+                "f1-score": 0.7520661157024794,
+                "support": 140.0
+            },
+            "accuracy": 0.7,
+            "macro avg": {
+                "precision": 0.696078431372549,
+                "recall": 0.7333333333333334,
+                "f1-score": 0.6861596401297207,
+                "support": 200.0
+            },
+            "weighted avg": {
+                "precision": 0.7745098039215687,
+                "recall": 0.7,
+                "f1-score": 0.7125222303588242,
+                "support": 200.0
+            }
+        }
+    },
+    "Decision Tree": {
+        "cv_accuracy_mean": 0.6475,
+        "cv_accuracy_std": 0.06,
+        "cv_roc_auc_mean": 0.7029,
+        "cv_roc_auc_std": 0.0581,
+        "test_accuracy": 0.65,
+        "test_roc_auc": 0.6921,
+        "precision_good": 0.8723,
+        "recall_good": 0.5857,
+        "f1_good": 0.7009,
+        "precision_bad": 0.4528,
+        "recall_bad": 0.8,
+        "f1_bad": 0.5783,
+        "bad_as_good_defaults": 12,
+        "good_as_bad_denials": 58,
+        "total_financial_cost": 118,
+        "avg_cost_per_applicant": 0.59,
+        "confusion_matrix": [
+            [
+                48,
+                12
+            ],
+            [
+                58,
+                82
+            ]
+        ],
+        "classification_report": {
+            "Bad Credit": {
+                "precision": 0.4528301886792453,
+                "recall": 0.8,
+                "f1-score": 0.5783132530120482,
+                "support": 60.0
+            },
+            "Good Credit": {
+                "precision": 0.8723404255319149,
+                "recall": 0.5857142857142857,
+                "f1-score": 0.7008547008547008,
+                "support": 140.0
+            },
+            "accuracy": 0.65,
+            "macro avg": {
+                "precision": 0.6625853071055801,
+                "recall": 0.6928571428571428,
+                "f1-score": 0.6395839769333744,
+                "support": 200.0
+            },
+            "weighted avg": {
+                "precision": 0.746487354476114,
+                "recall": 0.65,
+                "f1-score": 0.664092266501905,
+                "support": 200.0
+            }
+        }
+    },
+    "Random Forest": {
+        "cv_accuracy_mean": 0.6912,
+        "cv_accuracy_std": 0.0655,
+        "cv_roc_auc_mean": 0.7649,
+        "cv_roc_auc_std": 0.067,
+        "test_accuracy": 0.71,
+        "test_roc_auc": 0.8086,
+        "precision_good": 0.8727,
+        "recall_good": 0.6857,
+        "f1_good": 0.768,
+        "precision_bad": 0.5111,
+        "recall_bad": 0.7667,
+        "f1_bad": 0.6133,
+        "bad_as_good_defaults": 14,
+        "good_as_bad_denials": 44,
+        "total_financial_cost": 114,
+        "avg_cost_per_applicant": 0.57,
+        "confusion_matrix": [
+            [
+                46,
+                14
+            ],
+            [
+                44,
+                96
+            ]
+        ],
+        "classification_report": {
+            "Bad Credit": {
+                "precision": 0.5111111111111111,
+                "recall": 0.7666666666666667,
+                "f1-score": 0.6133333333333333,
+                "support": 60.0
+            },
+            "Good Credit": {
+                "precision": 0.8727272727272727,
+                "recall": 0.6857142857142857,
+                "f1-score": 0.768,
+                "support": 140.0
+            },
+            "accuracy": 0.71,
+            "macro avg": {
+                "precision": 0.6919191919191918,
+                "recall": 0.7261904761904763,
+                "f1-score": 0.6906666666666667,
+                "support": 200.0
+            },
+            "weighted avg": {
+                "precision": 0.7642424242424242,
+                "recall": 0.71,
+                "f1-score": 0.7216,
+                "support": 200.0
+            }
+        }
+    }
+}
